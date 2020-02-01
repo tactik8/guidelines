@@ -1,0 +1,9 @@
+# Task management
+Tasks are listed as tickets in hubspot (hubspot.com)
+Tickets are assigned to the developer and 
+When assigned a task, the developer need to estimate the number of hours required to complete the task in the field 'Development estimate' 
+The status is tracked using specific fields:
+- Requirement complete
+- Development complete
+- Test complete
+Communications / questions regarding a task should be done as 'Notes' within the ticket. This will ensure that all information regarding a task stays together. 
