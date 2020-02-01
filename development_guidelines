@@ -26,3 +26,6 @@ Limit operations to one per line whenever possible to make it easier for others 
 ## External libraries
 Limit libraries to well known, well maintained libraries. 
 
+## Test scenarios
+Include test input data with expected output.
+Include tests that are expected to fail (null value for example).
