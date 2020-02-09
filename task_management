@@ -9,3 +9,4 @@ The status is tracked using specific fields:
 - Test complete
 Communications / questions regarding a task should be done as 'Notes' within the ticket. This will ensure that all information regarding a task stays together. 
 
+The ticket contains a field called "Function URL". Please add the url of the function in this field when ready. Typically, this will be the url of a http funciton on google cloud. 
