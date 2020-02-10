@@ -1,0 +1,27 @@
+# Using tokens
+Account tokens should be managed using the tokens functions available at https://us-central1-kraken-v1.cloudfunctions.net/tokens
+
+The function uses three parameters:
+- account: the account of the user
+- service: the service issuing the token (office.com, gmail.com, etc)
+- token: a json of the actual token and related information (efresh_token, expiry_date, etc)
+
+## Retrieve a user token
+Send a get or post request with the following data or parameters:
+'''
+{
+        	"account": "testemail@test.com", 
+        	"service": "365"
+        }
+'''
+
+## Store a user token
+Send a post request with the following data or parameters:
+'''
+{
+        	"account": "testemail@test.com",
+        	"service": "365",
+            "token": {"value": "value1", "refresh": "value2"}
+        }
+'''
+
