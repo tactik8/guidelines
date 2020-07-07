@@ -1,7 +1,9 @@
 # Code documentation guidelines
 This document contains the guidelines to follow for documenting code
 
-The code should follow Python PEP 8 style guide (https://www.python.org/dev/peps/pep-0008/)
+
+## Code style guide
+Please use PEP 8 style guide for Python code (https://www.python.org/dev/peps/pep-0008/) 
 
 ## Version control
 The code need to be stored in github under the repo provided. 
